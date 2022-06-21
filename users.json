@@ -1,1 +1,9 @@
-{"name":"Sean Pursani","dateRegistered":"21-06-2022 14:57:45","authenticationType":"ADMINISTRATOR"}
+[ {
+  "name" : "Sean Pursani",
+  "dateRegistered" : "21-06-2022 17:03:14",
+  "authenticationType" : "ADMINISTRATOR"
+}, {
+  "name" : "Ruth Campbell",
+  "dateRegistered" : "21-06-2022 17:03:14",
+  "authenticationType" : "PUBLIC"
+} ]

@@ -1,5 +1,8 @@
 package com.nology.librarysystem;
 
+import java.io.IOException;
+import java.util.List;
+
 public class User {
     private String name;
     private String dateRegistered;
@@ -22,7 +25,6 @@ public class User {
     public AuthenticationType getAuthenticationType() {
         return authenticationType;
     }
-
 
     @Override
     public String toString() {

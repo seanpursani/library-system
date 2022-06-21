@@ -53,6 +53,14 @@ public class Book {
         return amountLoaned;
     }
 
+    public void setAmountLoaned() {
+        this.amountLoaned += 1;
+    }
+
+    public void setCurrentlyLoaned() {
+        this.currentlyLoaned = !currentlyLoaned;
+    }
+
     @Override
     public String toString() {
         return "Book{" +

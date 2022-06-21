@@ -6,6 +6,9 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
         Library myLibrary = new Library();
-        User myUser = myLibrary.createUser("Sean Pursani", AuthenticationType.ADMINISTRATOR);
+        AdminUser firstUser = myLibrary.newAdminUser("Sean Pursani");
+        PublicUser secondUser = myLibrary.newPublicUser("Ruth Campbell");
+        System.out.println(secondUser.checkAvailableBooks());
+        secondUser.loanBook();
     }
 }
