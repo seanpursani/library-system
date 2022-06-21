@@ -1,0 +1,1201 @@
+[ {
+  "details" : {
+    "bookID" : "1",
+    "title" : "Fundamentals of Wavelets",
+    "author" : "Goswami, Jaideva",
+    "genre" : "tech",
+    "publisher" : "Wiley"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "2",
+    "title" : "Data Smart",
+    "author" : "Foreman, John",
+    "genre" : "tech",
+    "publisher" : "Wiley"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "3",
+    "title" : "God Created the Integers",
+    "author" : "Hawking, Stephen",
+    "genre" : "tech",
+    "publisher" : "Penguin"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "4",
+    "title" : "Superfreakonomics",
+    "author" : "Dubner, Stephen",
+    "genre" : "science",
+    "publisher" : "HarperCollins"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "5",
+    "title" : "Orientalism",
+    "author" : "Said, Edward",
+    "genre" : "nonfiction",
+    "publisher" : "Penguin"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "6",
+    "title" : "Nature of Statistical Learning Theory, The",
+    "author" : "Vapnik, Vladimir",
+    "genre" : "tech",
+    "publisher" : "Springer"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "7",
+    "title" : "Integration of the Indian States",
+    "author" : "Menon, V P",
+    "genre" : "nonfiction",
+    "publisher" : "Orient Blackswan"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "8",
+    "title" : "Drunkard's Walk, The",
+    "author" : "Mlodinow, Leonard",
+    "genre" : "science",
+    "publisher" : "Penguin"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "9",
+    "title" : "Image Processing & Mathematical Morphology",
+    "author" : "Shih, Frank",
+    "genre" : "tech",
+    "publisher" : "CRC"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "10",
+    "title" : "How to Think Like Sherlock Holmes",
+    "author" : "Konnikova, Maria",
+    "genre" : "nonfiction",
+    "publisher" : "Penguin"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "11",
+    "title" : "Data Scientists at Work",
+    "author" : "Sebastian Gutierrez",
+    "genre" : "tech",
+    "publisher" : "Apress"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "12",
+    "title" : "Slaughterhouse Five",
+    "author" : "Vonnegut, Kurt",
+    "genre" : "fiction",
+    "publisher" : "Random House"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "13",
+    "title" : "Birth of a Theorem",
+    "author" : "Villani, Cedric",
+    "genre" : "science",
+    "publisher" : "Bodley Head"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "14",
+    "title" : "Structure & Interpretation of Computer Programs",
+    "author" : "Sussman, Gerald",
+    "genre" : "tech",
+    "publisher" : "MIT Press"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "15",
+    "title" : "Age of Wrath, The",
+    "author" : "Eraly, Abraham",
+    "genre" : "nonfiction",
+    "publisher" : "Penguin"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "16",
+    "title" : "Trial, The",
+    "author" : "Kafka, Frank",
+    "genre" : "fiction",
+    "publisher" : "Random House"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "17",
+    "title" : "Statistical Decision Theory'",
+    "author" : "Pratt, John",
+    "genre" : "tech",
+    "publisher" : "MIT Press"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "18",
+    "title" : "Data Mining Handbook",
+    "author" : "Nisbet, Robert",
+    "genre" : "tech",
+    "publisher" : "Apress"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "19",
+    "title" : "New Machiavelli, The",
+    "author" : "Wells, H. G.",
+    "genre" : "fiction",
+    "publisher" : "Penguin"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "20",
+    "title" : "Physics & Philosophy",
+    "author" : "Heisenberg, Werner",
+    "genre" : "philosophy",
+    "publisher" : "Penguin"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "21",
+    "title" : "Making Software",
+    "author" : "Oram, Andy",
+    "genre" : "tech",
+    "publisher" : "O'Reilly"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "22",
+    "title" : "Analysis, Vol I",
+    "author" : "Tao, Terence",
+    "genre" : "tech",
+    "publisher" : "HBA"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "23",
+    "title" : "Machine Learning for Hackers",
+    "author" : "Conway, Drew",
+    "genre" : "tech",
+    "publisher" : "O'Reilly"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "24",
+    "title" : "Signal and the Noise, The",
+    "author" : "Silver, Nate",
+    "genre" : "tech",
+    "publisher" : "Penguin"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "25",
+    "title" : "Python for Data Analysis",
+    "author" : "McKinney, Wes",
+    "genre" : "tech",
+    "publisher" : "O'Reilly"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "26",
+    "title" : "Introduction to Algorithms",
+    "author" : "Cormen, Thomas",
+    "genre" : "tech",
+    "publisher" : "MIT Press"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "27",
+    "title" : "Beautiful and the Damned, The",
+    "author" : "Deb, Siddhartha",
+    "genre" : "nonfiction",
+    "publisher" : "Penguin"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "28",
+    "title" : "Outsider, The",
+    "author" : "Camus, Albert",
+    "genre" : "fiction",
+    "publisher" : "Penguin"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "29",
+    "title" : "Complete Sherlock Holmes, The - Vol I",
+    "author" : "Doyle, Arthur Conan",
+    "genre" : "fiction",
+    "publisher" : "Random House"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "30",
+    "title" : "Complete Sherlock Holmes, The - Vol II",
+    "author" : "Doyle, Arthur Conan",
+    "genre" : "fiction",
+    "publisher" : "Random House"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "31",
+    "title" : "Wealth of Nations, The",
+    "author" : "Smith, Adam",
+    "genre" : "science",
+    "publisher" : "Random House"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "32",
+    "title" : "Pillars of the Earth, The",
+    "author" : "Follett, Ken",
+    "genre" : "fiction",
+    "publisher" : "Random House"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "33",
+    "title" : "Mein Kampf",
+    "author" : "Hitler, Adolf",
+    "genre" : "nonfiction",
+    "publisher" : "Rupa"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "34",
+    "title" : "Tao of Physics, The",
+    "author" : "Capra, Fritjof",
+    "genre" : "science",
+    "publisher" : "Penguin"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "35",
+    "title" : "Surely You're Joking Mr Feynman",
+    "author" : "Feynman, Richard",
+    "genre" : "science",
+    "publisher" : "Random House"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "36",
+    "title" : "Farewell to Arms, A",
+    "author" : "Hemingway, Ernest",
+    "genre" : "fiction",
+    "publisher" : "Rupa"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "37",
+    "title" : "Veteran, The",
+    "author" : "Forsyth, Frederick",
+    "genre" : "fiction",
+    "publisher" : "Transworld"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "38",
+    "title" : "False Impressions",
+    "author" : "Archer, Jeffery",
+    "genre" : "fiction",
+    "publisher" : "Pan"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "39",
+    "title" : "Last Lecture, The",
+    "author" : "Pausch, Randy",
+    "genre" : "nonfiction",
+    "publisher" : "Hyperion"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "40",
+    "title" : "Return of the Primitive",
+    "author" : "Rand, Ayn",
+    "genre" : "philosophy",
+    "publisher" : "Penguin"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "41",
+    "title" : "Jurassic Park",
+    "author" : "Crichton, Michael",
+    "genre" : "fiction",
+    "publisher" : "Random House"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "42",
+    "title" : "Russian Journal, A",
+    "author" : "Steinbeck, John",
+    "genre" : "nonfiction",
+    "publisher" : "Penguin"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "43",
+    "title" : "Tales of Mystery and Imagination",
+    "author" : "Poe, Edgar Allen",
+    "genre" : "fiction",
+    "publisher" : "HarperCollins"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "44",
+    "title" : "Freakonomics",
+    "author" : "Dubner, Stephen",
+    "genre" : "science",
+    "publisher" : "Penguin"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "45",
+    "title" : "Hidden Connections, The",
+    "author" : "Capra, Fritjof",
+    "genre" : "science",
+    "publisher" : "HarperCollins"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "46",
+    "title" : "Story of Philosophy, The",
+    "author" : "Durant, Will",
+    "genre" : "philosophy",
+    "publisher" : "Pocket"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "47",
+    "title" : "Asami Asami",
+    "author" : "Deshpande, P L",
+    "genre" : "fiction",
+    "publisher" : "Mauj"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "48",
+    "title" : "Journal of a Novel",
+    "author" : "Steinbeck, John",
+    "genre" : "fiction",
+    "publisher" : "Penguin"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "49",
+    "title" : "Once There Was a War",
+    "author" : "Steinbeck, John",
+    "genre" : "nonfiction",
+    "publisher" : "Penguin"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "50",
+    "title" : "Moon is Down, The",
+    "author" : "Steinbeck, John",
+    "genre" : "fiction",
+    "publisher" : "Penguin"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "51",
+    "title" : "Brethren, The",
+    "author" : "Grisham, John",
+    "genre" : "fiction",
+    "publisher" : "Random House"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "52",
+    "title" : "In a Free State",
+    "author" : "Naipaul, V. S.",
+    "genre" : "fiction",
+    "publisher" : "Rupa"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "53",
+    "title" : "Catch 22",
+    "author" : "Heller, Joseph",
+    "genre" : "fiction",
+    "publisher" : "Random House"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "54",
+    "title" : "Complete Mastermind, The",
+    "author" : "BBC",
+    "genre" : "nonfiction",
+    "publisher" : "BBC"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "55",
+    "title" : "Dylan on Dylan",
+    "author" : "Dylan, Bob",
+    "genre" : "nonfiction",
+    "publisher" : "Random House"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "56",
+    "title" : "Soft Computing & Intelligent Systems",
+    "author" : "Gupta, Madan",
+    "genre" : "tech",
+    "publisher" : "Elsevier"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "57",
+    "title" : "Textbook of Economic Theory",
+    "author" : "Stonier, Alfred",
+    "genre" : "tech",
+    "publisher" : "Pearson"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "58",
+    "title" : "Econometric Analysis",
+    "author" : "Greene, W. H.",
+    "genre" : "tech",
+    "publisher" : "Pearson"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "59",
+    "title" : "Learning OpenCV",
+    "author" : "Bradsky, Gary",
+    "genre" : "tech",
+    "publisher" : "O'Reilly"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "60",
+    "title" : "Data Structures Using C & C++",
+    "author" : "Tanenbaum, Andrew",
+    "genre" : "tech",
+    "publisher" : "Prentice Hall"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "61",
+    "title" : "Computer Vision, A Modern Approach",
+    "author" : "Forsyth, David",
+    "genre" : "tech",
+    "publisher" : "Pearson"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "62",
+    "title" : "Principles of Communication Systems",
+    "author" : "Taub, Schilling",
+    "genre" : "tech",
+    "publisher" : "TMH"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "63",
+    "title" : "Let Us C",
+    "author" : "Kanetkar, Yashwant",
+    "genre" : "tech",
+    "publisher" : "Prentice Hall"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "64",
+    "title" : "Amulet of Samarkand, The",
+    "author" : "Stroud, Jonathan",
+    "genre" : "fiction",
+    "publisher" : "Random House"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "65",
+    "title" : "Crime and Punishment",
+    "author" : "Dostoevsky, Fyodor",
+    "genre" : "fiction",
+    "publisher" : "Penguin"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "66",
+    "title" : "Angels & Demons",
+    "author" : "Brown, Dan",
+    "genre" : "fiction",
+    "publisher" : "Random House"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "67",
+    "title" : "Argumentative Indian, The",
+    "author" : "Sen, Amartya",
+    "genre" : "nonfiction",
+    "publisher" : "Picador"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "68",
+    "title" : "Sea of Poppies",
+    "author" : "Ghosh, Amitav",
+    "genre" : "fiction",
+    "publisher" : "Penguin"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "69",
+    "title" : "Idea of Justice, The",
+    "author" : "Sen, Amartya",
+    "genre" : "philosophy",
+    "publisher" : "Penguin"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "70",
+    "title" : "Raisin in the Sun, A",
+    "author" : "Hansberry, Lorraine",
+    "genre" : "fiction",
+    "publisher" : "Penguin"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "71",
+    "title" : "All the President's Men",
+    "author" : "Woodward, Bob",
+    "genre" : "nonfiction",
+    "publisher" : "Random House"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "72",
+    "title" : "Prisoner of Birth, A",
+    "author" : "Archer, Jeffery",
+    "genre" : "fiction",
+    "publisher" : "Pan"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "73",
+    "title" : "Scoop!",
+    "author" : "Nayar, Kuldip",
+    "genre" : "nonfiction",
+    "publisher" : "HarperCollins"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "74",
+    "title" : "Ahe Manohar Tari",
+    "author" : "Deshpande, Sunita",
+    "genre" : "nonfiction",
+    "publisher" : "Mauj"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "75",
+    "title" : "Last Mughal, The",
+    "author" : "Dalrymple, William",
+    "genre" : "nonfiction",
+    "publisher" : "Penguin"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "76",
+    "title" : "Social Choice & Welfare, Vol 39 No. 1",
+    "author" : "Various",
+    "genre" : "tech",
+    "publisher" : "Springer"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "77",
+    "title" : "Radiowaril Bhashane & Shrutika",
+    "author" : "Deshpande, P L",
+    "genre" : "nonfiction",
+    "publisher" : "Mauj"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "78",
+    "title" : "Gun Gayin Awadi",
+    "author" : "Deshpande, P L",
+    "genre" : "nonfiction",
+    "publisher" : "Mauj"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "79",
+    "title" : "Aghal Paghal",
+    "author" : "Deshpande, P L",
+    "genre" : "nonfiction",
+    "publisher" : "Mauj"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "80",
+    "title" : "Maqta-e-Ghalib",
+    "author" : "Garg, Sanjay",
+    "genre" : "nonfiction",
+    "publisher" : "Mauj"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "81",
+    "title" : "Beyond Degrees",
+    "author" : "",
+    "genre" : "philosophy",
+    "publisher" : "HarperCollins"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "82",
+    "title" : "Manasa",
+    "author" : "Kale, V P",
+    "genre" : "nonfiction",
+    "publisher" : "Mauj"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "83",
+    "title" : "India from Midnight to Milennium",
+    "author" : "Tharoor, Shashi",
+    "genre" : "nonfiction",
+    "publisher" : "Penguin"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "84",
+    "title" : "World's Greatest Trials, The",
+    "author" : "John Doe",
+    "genre" : "nonfiction",
+    "publisher" : "Penguin"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "85",
+    "title" : "Great Indian Novel, The",
+    "author" : "Tharoor, Shashi",
+    "genre" : "fiction",
+    "publisher" : "Penguin"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "86",
+    "title" : "O Jerusalem!",
+    "author" : "Lapierre, Dominique",
+    "genre" : "nonfiction",
+    "publisher" : "vikas"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "87",
+    "title" : "City of Joy, The",
+    "author" : "Lapierre, Dominique",
+    "genre" : "fiction",
+    "publisher" : "vikas"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "88",
+    "title" : "Freedom at Midnight",
+    "author" : "Lapierre, Dominique",
+    "genre" : "nonfiction",
+    "publisher" : "vikas"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "89",
+    "title" : "Winter of Our Discontent, The",
+    "author" : "Steinbeck, John",
+    "genre" : "fiction",
+    "publisher" : "Penguin"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "90",
+    "title" : "On Education",
+    "author" : "Russell, Bertrand",
+    "genre" : "philosophy",
+    "publisher" : "Routledge"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "91",
+    "title" : "Free Will",
+    "author" : "Harris, Sam",
+    "genre" : "nonfiction",
+    "publisher" : "FreePress"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "92",
+    "title" : "Bookless in Baghdad",
+    "author" : "Tharoor, Shashi",
+    "genre" : "nonfiction",
+    "publisher" : "Penguin"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "93",
+    "title" : "Case of the Lame Canary, The",
+    "author" : "Gardner, Earle Stanley",
+    "genre" : "fiction",
+    "publisher" : "Penguin"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "94",
+    "title" : "Theory of Everything, The",
+    "author" : "Hawking, Stephen",
+    "genre" : "science",
+    "publisher" : "Jaico"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "95",
+    "title" : "New Markets & Other Essays",
+    "author" : "Drucker, Peter",
+    "genre" : "science",
+    "publisher" : "Penguin"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "96",
+    "title" : "Electric Universe",
+    "author" : "Bodanis, David",
+    "genre" : "science",
+    "publisher" : "Penguin"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "97",
+    "title" : "Hunchback of Notre Dame, The",
+    "author" : "Hugo, Victor",
+    "genre" : "fiction",
+    "publisher" : "Random House"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "98",
+    "title" : "Burning Bright",
+    "author" : "Steinbeck, John",
+    "genre" : "fiction",
+    "publisher" : "Penguin"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "99",
+    "title" : "Age of Discontuinity, The",
+    "author" : "Drucker, Peter",
+    "genre" : "nonfiction",
+    "publisher" : "Random House"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "100",
+    "title" : "Doctor in the Nude",
+    "author" : "Gordon, Richard",
+    "genre" : "fiction",
+    "publisher" : "Penguin"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "101",
+    "title" : "Down and Out in Paris & London",
+    "author" : "Orwell, George",
+    "genre" : "nonfiction",
+    "publisher" : "Penguin"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "102",
+    "title" : "Identity & Violence",
+    "author" : "Sen, Amartya",
+    "genre" : "philosophy",
+    "publisher" : "Penguin"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "103",
+    "title" : "Beyond the Three Seas",
+    "author" : "Dalrymple, William",
+    "genre" : "nonfiction",
+    "publisher" : "Random House"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "104",
+    "title" : "World's Greatest Short Stories, The",
+    "author" : "",
+    "genre" : "fiction",
+    "publisher" : "Jaico"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "105",
+    "title" : "Talking Straight",
+    "author" : "Iacoca, Lee",
+    "genre" : "nonfiction",
+    "publisher" : "Penguin"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "106",
+    "title" : "Maugham's Collected Short Stories, Vol 3",
+    "author" : "Maugham, William S",
+    "genre" : "fiction",
+    "publisher" : "Vintage"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "107",
+    "title" : "Phantom of Manhattan, The",
+    "author" : "Forsyth, Frederick",
+    "genre" : "fiction",
+    "publisher" : "Penguin"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "108",
+    "title" : "Ashenden of The British Agent",
+    "author" : "Maugham, William S",
+    "genre" : "fiction",
+    "publisher" : "Vintage"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "109",
+    "title" : "Zen & The Art of Motorcycle Maintenance",
+    "author" : "Pirsig, Robert",
+    "genre" : "philosophy",
+    "publisher" : "Vintage"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "110",
+    "title" : "Great War for Civilization, The",
+    "author" : "Fisk, Robert",
+    "genre" : "nonfiction",
+    "publisher" : "HarperCollins"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "111",
+    "title" : "We the Living",
+    "author" : "Rand, Ayn",
+    "genre" : "fiction",
+    "publisher" : "Penguin"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "112",
+    "title" : "Artist and the Mathematician, The",
+    "author" : "Aczel, Amir",
+    "genre" : "science",
+    "publisher" : "HighStakes"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "113",
+    "title" : "History of Western Philosophy",
+    "author" : "Russell, Bertrand",
+    "genre" : "philosophy",
+    "publisher" : "Routledge"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "114",
+    "title" : "Selected Short Stories",
+    "author" : "",
+    "genre" : "fiction",
+    "publisher" : "Jaico"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "115",
+    "title" : "Rationality & Freedom",
+    "author" : "Sen, Amartya",
+    "genre" : "science",
+    "publisher" : "Springer"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "116",
+    "title" : "Clash of Civilizations and Remaking of the World Order",
+    "author" : "Huntington, Samuel",
+    "genre" : "nonfiction",
+    "publisher" : "Simon&Schuster"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "117",
+    "title" : "Uncommon Wisdom",
+    "author" : "Capra, Fritjof",
+    "genre" : "nonfiction",
+    "publisher" : "Fontana"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "118",
+    "title" : "One",
+    "author" : "Bach, Richard",
+    "genre" : "nonfiction",
+    "publisher" : "Dell"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "119",
+    "title" : "Karl Marx Biography",
+    "author" : "Marx, Karl",
+    "genre" : "nonfiction",
+    "publisher" : "Penguin"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+}, {
+  "details" : {
+    "bookID" : "120",
+    "title" : "To Sir With Love",
+    "author" : "Braithwaite",
+    "genre" : "fiction",
+    "publisher" : "Penguin"
+  },
+  "currentlyLoaned" : false,
+  "amountLoaned" : 0
+} ]
