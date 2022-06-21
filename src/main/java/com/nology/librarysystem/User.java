@@ -1,9 +1,9 @@
 package com.nology.librarysystem;
 
-public abstract class User {
-    String name;
-    String dateRegistered;
-    AuthenticationType authenticationType;
+public class User {
+    private String name;
+    private String dateRegistered;
+    private AuthenticationType authenticationType;
 
     public User(String name, String dateRegistered, AuthenticationType authenticationType) {
         this.name = name;
@@ -22,6 +22,7 @@ public abstract class User {
     public AuthenticationType getAuthenticationType() {
         return authenticationType;
     }
+
 
     @Override
     public String toString() {

@@ -15,6 +15,8 @@ public class Book {
     private String subGenre;
     @CsvBindByName(column = "Publisher")
     private String publisher;
+    private boolean currentlyLoaned = false;
+    private int amountLoaned = 0;
 
     public Book() {
     }
@@ -37,6 +39,18 @@ public class Book {
 
     public String getPublisher() {
         return publisher;
+    }
+
+    public String getSubGenre() {
+        return subGenre;
+    }
+
+    public boolean isCurrentlyLoaned() {
+        return currentlyLoaned;
+    }
+
+    public int getAmountLoaned() {
+        return amountLoaned;
     }
 
     @Override

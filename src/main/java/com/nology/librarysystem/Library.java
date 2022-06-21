@@ -12,38 +12,35 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class Library {
-    private final List<User> users = new ArrayList<>();
-    private final static String booksJSON = "books.json";
+    private final static String filePathJSON = "books.json";
     private static final ObjectMapper mapper = new ObjectMapper();
     private static final ObjectWriter writer = mapper.writer(new DefaultPrettyPrinter());
 
-    public Library() throws IOException {
+    public Library() {
     }
 
     static {
         try {
             List<Book> rawBooks = new CsvToBeanBuilder(new FileReader("CSVdata.csv")).withType(Book.class).build().parse();
-            List<Item> booksAsItems = rawBooks.stream().map(Item::new).collect(Collectors.toList());
-            File fileRef = new File(booksJSON);
-            writer.writeValue(Paths.get(booksJSON).toFile(), booksAsItems);
+            File fileRef = new File(filePathJSON);
+            writer.writeValue(Paths.get(filePathJSON).toFile(), rawBooks);
             System.out.println("Successfully written to JSON file 'books.json'");
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
 
-    public User createUser(String name, AuthenticationType authenticationType) {
+    public User createUser(String name, AuthenticationType authenticationType) throws IOException {
         String date = getDate();
         User newUser;
-        if (authenticationType == AuthenticationType.PUBLIC) {
-            newUser = new PublicUser(name, date, authenticationType);
-        } else {
+        if (authenticationType == AuthenticationType.ADMINISTRATOR) {
             newUser = new AdminUser(name, date, authenticationType);
+        } else {
+            newUser = new PublicUser(name, date, authenticationType);
         }
-        users.add(newUser);
+        writer.writeValue(new File("users.json"), newUser);
         return newUser;
     }
 
@@ -51,10 +48,6 @@ public class Library {
         LocalDateTime date = LocalDateTime.now();
         DateTimeFormatter myFormatObj = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");
         return date.format(myFormatObj);
-    }
-
-    public List<User> getUsers(User myUser) {
-        return myUser.getAuthenticationType() == AuthenticationType.ADMINISTRATOR || myUser.getAuthenticationType() == AuthenticationType.ACCOUNTMANAGER ? users : new ArrayList<>();
     }
 
 
