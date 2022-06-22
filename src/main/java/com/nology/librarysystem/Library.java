@@ -62,7 +62,7 @@ public class Library {
         return date.format(myFormatObj);
     }
 
-    public void writeToJsonFile(String fileName, List items) {
+    public static void writeToJsonFile(String fileName, List items) {
         try {
             writer.writeValue(Paths.get(fileName).toFile(), items);
         } catch (IOException e){

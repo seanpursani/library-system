@@ -8,7 +8,8 @@ public class Main {
         Library myLibrary = new Library();
         AdminUser firstUser = myLibrary.newAdminUser("Sean Pursani");
         PublicUser secondUser = myLibrary.newPublicUser("Ruth Campbell");
-        System.out.println(secondUser.checkAvailableBooks());
+        secondUser.checkAvailableBooks();
         secondUser.loanBook();
+        secondUser.getCurrentlyLoaned();
     }
 }
