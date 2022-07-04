@@ -54,10 +54,10 @@ public class User {
 
     @Override
     public String toString() {
-        return "User{" +
-                "name='" + name + '\'' +
+        return  "{ id=" + id +
+                ", name='" + name + '\'' +
                 ", dateRegistered='" + dateRegistered + '\'' +
                 ", authenticationType=" + authenticationType +
-                '}';
+                ", currentlyLoaned=" + currentlyLoaned + " }";
     }
 }

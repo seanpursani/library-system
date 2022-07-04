@@ -9,7 +9,6 @@ import com.opencsv.bean.CsvToBeanBuilder;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
-import java.io.InputStream;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -18,7 +17,6 @@ import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
-import java.util.Scanner;
 import java.util.stream.Collectors;
 
 public class Library {
@@ -44,7 +42,7 @@ public class Library {
         }
     }
 
-    public void newUser(String name, AuthenticationType userType) throws IOException {
+    public void createNewUser(String name, AuthenticationType userType) throws IOException {
         if (allUsers.size() == 0) {
             User newUser = new User(name, getDate(), userType, 1);
             allUsers.add(newUser);
@@ -56,27 +54,16 @@ public class Library {
         writeToJsonFile("users.json", allUsers);
     }
 
-    public static List<Book> bookObjList() throws IOException {
-        String filePath = Files.readString(Path.of(bookFilePath));
-        return mapper.readValue(filePath, new TypeReference<>(){});
-    }
-
-    private String getDate() {
-        LocalDateTime date = LocalDateTime.now();
-        DateTimeFormatter myFormatObj = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");
-        return date.format(myFormatObj);
-    }
-
     public void showAvailableBooks(int userID) throws IOException {
         boolean isValidUser = allUsers.stream().
                 anyMatch(user -> user.getId() == userID && user.getAuthenticationType() == AuthenticationType.PUBLIC);
-        if (!isValidUser) throw new IllegalArgumentException("Invalid Operation, please try again");
+        if (!isValidUser) throw new IllegalArgumentException("Please enter a valid User ID");
         writeToJsonFile("available-books.json", allBooks.stream().filter(book -> !book.isCurrentlyLoaned()).collect(Collectors.toList()));
-        System.out.println("Please check the JSON file 'available-books.json' to see what books you can loan!");
+        System.out.println("Please check the file named 'available-books.json' to check out what books are available to loan!");
     }
 
     public void loanBook(int userID, String bookID) throws IOException {
-        if (!isValidPublicUser(userID) && !isValidBook(bookID)) throw new IllegalArgumentException("Invalid operation, please check and try again!");
+        if (!isPublicUser(userID) && !isValidBook(bookID)) throw new IllegalArgumentException("Please enter a valid user ID and/or book ID");
         Book requestedBook = allBooks.remove(Integer.parseInt(bookID) -1);
         requestedBook.setAmountLoaned();
         requestedBook.setCurrentlyLoaned();
@@ -84,17 +71,36 @@ public class Library {
         allUsers.get(userID-1).addBook(requestedBook);
         writeToJsonFile(bookFilePath, allBooks);
         writeToJsonFile(userFilePath, allUsers);
-        System.out.println("Thank you for loaning " + "'" + requestedBook.getTitle() + "'" + ". Enjoy!");
+        System.out.println("Thank you for loaning " + "'" + requestedBook.getTitle() + "'" + ". Enjoy the read!");
     }
 
-    public boolean isValidPublicUser(int userID) {
-        return allUsers.stream().
-                anyMatch(user -> user.getId() == userID || user.getAuthenticationType() == AuthenticationType.PUBLIC);
+
+    public void returnBook (int userID, String bookID) throws IOException {
+        if (!isPublicUser(userID) && !isValidBook(bookID)) throw new IllegalArgumentException("Please enter a valid user ID and/or book ID");
+        allUsers.get(userID-1).removeBook(bookID);
+        writeToJsonFile(userFilePath, allUsers);
+        allBooks.get(Integer.parseInt(bookID)-1).setCurrentlyLoaned();
+        writeToJsonFile(bookFilePath, allBooks);
     }
 
-    public boolean isValidAdminUser(int userID) {
+    public void viewAllUsers(int userID) {
+        if (!isAdminUser(userID)) throw new IllegalArgumentException("This user doesn't have the correct permissions to view this information");
+        System.out.println(allUsers);
+    }
+
+    public void viewUser(int userID, int searchID) {
+        if (!isAdminUser(userID)) throw new IllegalArgumentException("This user doesn't have the correct permissions to view this information");
+        System.out.println(allUsers.stream().filter(user -> user.getId() == searchID).collect(Collectors.toList()));
+    }
+
+    public boolean isPublicUser(int userID) {
         return allUsers.stream().
-                anyMatch(user -> user.getId() == userID || user.getAuthenticationType() == AuthenticationType.ADMINISTRATOR);
+                anyMatch(user -> user.getId() == userID && user.getAuthenticationType() == AuthenticationType.PUBLIC);
+    }
+
+    public boolean isAdminUser(int userID) {
+        return allUsers.stream().
+                anyMatch(user -> user.getId() == userID && user.getAuthenticationType() == AuthenticationType.ADMINISTRATOR);
     }
 
     public boolean isValidBook(String bookID) throws IOException {
@@ -102,15 +108,12 @@ public class Library {
                 anyMatch(book -> Objects.equals(book.getBookID(), bookID));
     }
 
-    public void returnBook (int userID, String bookID) throws IOException {
-        if (!isValidPublicUser(userID) && !isValidBook(bookID)) throw new IllegalArgumentException("Invalid operation, please check and try again!");
-        allUsers.get(userID-1).removeBook(bookID);
-        writeToJsonFile(userFilePath, allUsers);
-        allBooks.get(Integer.parseInt(bookID)-1).setCurrentlyLoaned();
-        writeToJsonFile(bookFilePath, allBooks);
+    private static List<Book> bookObjList() throws IOException {
+        String filePath = Files.readString(Path.of(bookFilePath));
+        return mapper.readValue(filePath, new TypeReference<>(){});
     }
 
-    public static void writeToJsonFile(String fileName, List items) {
+    private static void writeToJsonFile(String fileName, List items) {
         try {
             writer.writeValue(Paths.get(fileName).toFile(), items);
         } catch (IOException e){
@@ -118,6 +121,10 @@ public class Library {
         }
     }
 
-
+    private String getDate() {
+        LocalDateTime date = LocalDateTime.now();
+        DateTimeFormatter myFormatObj = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");
+        return date.format(myFormatObj);
+    }
 
 }
