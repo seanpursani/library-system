@@ -11,6 +11,6 @@ public class Main {
         myLibrary.newUser("Des Campbell", AuthenticationType.PUBLIC);
         myLibrary.loanBook(2, "10");
         myLibrary.showAvailableBooks(2);
-//        myLibrary.returnBook(2, "10");
+        myLibrary.returnBook(2, "8");
     }
 }

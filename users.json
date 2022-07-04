@@ -1,13 +1,13 @@
 [ {
   "id" : 1,
   "name" : "Sean Pursani",
-  "dateRegistered" : "04-07-2022 12:53:25",
+  "dateRegistered" : "04-07-2022 13:27:16",
   "authenticationType" : "ADMINISTRATOR",
   "currentlyLoaned" : [ ]
 }, {
   "id" : 2,
   "name" : "Ruth Campbell",
-  "dateRegistered" : "04-07-2022 12:53:25",
+  "dateRegistered" : "04-07-2022 13:27:16",
   "authenticationType" : "PUBLIC",
   "currentlyLoaned" : [ {
     "bookID" : "10",
@@ -22,7 +22,7 @@
 }, {
   "id" : 3,
   "name" : "Des Campbell",
-  "dateRegistered" : "04-07-2022 12:53:25",
+  "dateRegistered" : "04-07-2022 13:27:16",
   "authenticationType" : "PUBLIC",
   "currentlyLoaned" : [ ]
 } ]

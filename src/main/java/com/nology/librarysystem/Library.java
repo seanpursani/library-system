@@ -76,7 +76,7 @@ public class Library {
     }
 
     public void loanBook(int userID, String bookID) throws IOException {
-        if (!isValidPublicUser(userID) && !isValidBook(bookID)) throw new IllegalArgumentException("Invalid operation, please try again");
+        if (!isValidPublicUser(userID) && !isValidBook(bookID)) throw new IllegalArgumentException("Invalid operation, please check and try again!");
         Book requestedBook = allBooks.remove(Integer.parseInt(bookID) -1);
         requestedBook.setAmountLoaned();
         requestedBook.setCurrentlyLoaned();
@@ -92,16 +92,22 @@ public class Library {
                 anyMatch(user -> user.getId() == userID || user.getAuthenticationType() == AuthenticationType.PUBLIC);
     }
 
+    public boolean isValidAdminUser(int userID) {
+        return allUsers.stream().
+                anyMatch(user -> user.getId() == userID || user.getAuthenticationType() == AuthenticationType.ADMINISTRATOR);
+    }
+
     public boolean isValidBook(String bookID) throws IOException {
         return Library.bookObjList().stream().
                 anyMatch(book -> Objects.equals(book.getBookID(), bookID));
     }
 
     public void returnBook (int userID, String bookID) throws IOException {
-        if (!isValidPublicUser(userID) && !isValidBook(bookID)) throw new IllegalArgumentException("Invalid operation, please try again");
-        allUsers.get(userID-1).removeBook();
-
-
+        if (!isValidPublicUser(userID) && !isValidBook(bookID)) throw new IllegalArgumentException("Invalid operation, please check and try again!");
+        allUsers.get(userID-1).removeBook(bookID);
+        writeToJsonFile(userFilePath, allUsers);
+        allBooks.get(Integer.parseInt(bookID)-1).setCurrentlyLoaned();
+        writeToJsonFile(bookFilePath, allBooks);
     }
 
     public static void writeToJsonFile(String fileName, List items) {

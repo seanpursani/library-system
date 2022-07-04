@@ -3,6 +3,7 @@ package com.nology.librarysystem;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 public class User {
     private int id;
@@ -43,8 +44,11 @@ public class User {
     }
 
     public void removeBook(String bookID) {
-        try {
-            currentlyLoaned.removeIf(id -> id == bookID);
+        boolean isLoaned = currentlyLoaned.removeIf(book -> Objects.equals(book.getBookID(), bookID));
+        if (isLoaned) {
+            System.out.println("Thank you for returning this book!");
+        } else {
+            System.out.println("Invalid operation, you haven't loaned out this book, please check the Book ID again!");
         }
     }
 

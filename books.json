@@ -68,7 +68,7 @@
   "genre" : "science",
   "subGenre" : "mathematics",
   "publisher" : "Penguin",
-  "currentlyLoaned" : false,
+  "currentlyLoaned" : true,
   "amountLoaned" : 0
 }, {
   "bookID" : "9",
