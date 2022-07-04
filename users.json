@@ -1,9 +1,28 @@
 [ {
+  "id" : 1,
   "name" : "Sean Pursani",
-  "dateRegistered" : "22-06-2022 11:54:06",
-  "authenticationType" : "ADMINISTRATOR"
+  "dateRegistered" : "04-07-2022 12:53:25",
+  "authenticationType" : "ADMINISTRATOR",
+  "currentlyLoaned" : [ ]
 }, {
+  "id" : 2,
   "name" : "Ruth Campbell",
-  "dateRegistered" : "22-06-2022 11:54:06",
-  "authenticationType" : "PUBLIC"
+  "dateRegistered" : "04-07-2022 12:53:25",
+  "authenticationType" : "PUBLIC",
+  "currentlyLoaned" : [ {
+    "bookID" : "10",
+    "title" : "How to Think Like Sherlock Holmes",
+    "author" : "Konnikova, Maria",
+    "genre" : "nonfiction",
+    "subGenre" : "psychology",
+    "publisher" : "Penguin",
+    "currentlyLoaned" : true,
+    "amountLoaned" : 1
+  } ]
+}, {
+  "id" : 3,
+  "name" : "Des Campbell",
+  "dateRegistered" : "04-07-2022 12:53:25",
+  "authenticationType" : "PUBLIC",
+  "currentlyLoaned" : [ ]
 } ]

@@ -80,15 +80,6 @@
   "currentlyLoaned" : false,
   "amountLoaned" : 0
 }, {
-  "bookID" : "10",
-  "title" : "How to Think Like Sherlock Holmes",
-  "author" : "Konnikova, Maria",
-  "genre" : "nonfiction",
-  "subGenre" : "psychology",
-  "publisher" : "Penguin",
-  "currentlyLoaned" : false,
-  "amountLoaned" : 0
-}, {
   "bookID" : "11",
   "title" : "Data Scientists at Work",
   "author" : "Sebastian Gutierrez",
