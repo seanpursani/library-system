@@ -55,13 +55,13 @@ public class Library {
     public void showAvailableBooks(int userID) throws IOException {
         boolean isValidUser = allUsers.stream().
                 anyMatch(user -> user.getId() == userID && user.getAuthenticationType() == AuthenticationType.PUBLIC);
-        if (!isValidUser) throw new IllegalArgumentException("Please enter a valid User ID");
+        if (!isValidUser) throw new IllegalArgumentException("Please enter a valid User ID.");
         writeToJsonFile("available-books.json", allBooks.stream().filter(book -> !book.isCurrentlyLoaned()).collect(Collectors.toList()));
-        System.out.println("Please check the file named 'available-books.json' to see what books are available to loan!");
+        System.out.println("Check 'available-books.json' to see what books are available to loan.");
     }
 
     public void loanBook(int userID, String bookID) throws IOException {
-        if (!isPublicUser(userID) && !isValidBook(bookID)) throw new IllegalArgumentException("Please enter a valid PUBLIC user ID and/or book ID");
+        if (!isPublicUser(userID) && !isValidBook(bookID)) throw new IllegalArgumentException("Please enter a valid PUBLIC user ID and/or BOOK ID");
         Book requestedBook = allBooks.remove(Integer.parseInt(bookID) -1);
         requestedBook.setAmountLoaned();
         requestedBook.setCurrentlyLoaned();
@@ -69,12 +69,12 @@ public class Library {
         allUsers.get(userID-1).addBook(requestedBook);
         writeToJsonFile(bookFilePath, allBooks);
         writeToJsonFile(userFilePath, allUsers);
-        System.out.println("Thank you for loaning " + "'" + requestedBook.getTitle() + "'" + ". Enjoy the read!");
+        System.out.println("Thank you for loaning " + "'" + requestedBook.getTitle() + "'.");
     }
 
 
     public void returnBook (int userID, String bookID) throws IOException {
-        if (!isPublicUser(userID) && !isValidBook(bookID)) throw new IllegalArgumentException("Please enter a valid user ID and/or book ID");
+        if (!isPublicUser(userID) && !isValidBook(bookID)) throw new IllegalArgumentException("Please enter a valid user ID and/or book ID.");
         allUsers.get(userID-1).removeBook(bookID);
         writeToJsonFile(userFilePath, allUsers);
         allBooks.get(Integer.parseInt(bookID)-1).setCurrentlyLoaned();
@@ -82,12 +82,12 @@ public class Library {
     }
 
     public void viewAllUsers(int userID) {
-        if (!isAdminUser(userID)) throw new IllegalArgumentException("User doesn't have the correct permissions to view this information");
+        if (!isAdminUser(userID)) throw new IllegalArgumentException("Incorrect permissions to view this information.");
         System.out.println(allUsers);
     }
 
     public void viewUser(int userID, int searchID) {
-        if (!isAdminUser(userID)) throw new IllegalArgumentException("User doesn't have the correct permissions to view this information");
+        if (!isAdminUser(userID)) throw new IllegalArgumentException("Incorrect permissions to view this information.");
         System.out.println(allUsers.stream().filter(user -> user.getId() == searchID).collect(Collectors.toList()));
     }
 
